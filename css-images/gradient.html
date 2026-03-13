@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gradient</title>
+    <style>
+        #gradient {
+            /* fallback color */
+            background-color: #66cccc;
+            /* Firefox 3.6+ */
+            background-image: -moz-linear-gradient(#336666, #6ccccc);
+            /* Safari 4+, Chrome 1+ */
+            background-image: -webkit-gradient(linear, 0%, 0%, 0%, 100%, from(#66cccc), to(#336666));
+            /* Safari 5.1+, Chrome 10+ */
+            background-image: -webkit-linear-gradient(#336666, #6ccccc);
+            /* Opera 11.10+ */
+            background-image: -o-linear-gradient(#336666, #6ccccc);
+            height: 150px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gradient</h1>
+    <div id="gradient"></div>
+</body>
+<footer>
+    <br>
+    <a href="index.html">Go Back</a>
+</footer>
+</html>
